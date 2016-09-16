@@ -4,12 +4,13 @@
   <head>
     <meta charset="UTF-8">
     <title> Jessica's Book Reviews: Eloquent Ruby </title>
+    <link href="styles/style.css" rel="stylesheet">
   </head>
   <body>
     <header>
       <h1> Jessica's Wonderful Book Reviews</h1>
       <nav>
-        <ul>
+        <ul class="links">
           <li><a href="index.html"> Home </a></li>
           <li><a href="contact.html"> Contact </a></li>
         </ul>
@@ -17,7 +18,7 @@
     </header>
     <section>
       <h2>Book #1 - Eloquent Ruby</h2>
-      <img src="images/eloquentRuby.jpg" alt="Eloquent Ruby Image" title="Eloquent Ruby">
+      <img id="book" src="images/eloquentRuby.jpg" alt="Eloquent Ruby Image" title="Eloquent Ruby">
 
       <ul>
       <li>Author:  Russ Olsen</li>
@@ -40,6 +41,7 @@
       <li>Reviewer #1:  Peter Cooper</li>
       <li>Review #1 Date:  February 26, 2011</li>
       <li>Review #1:
+      <article>
       <p>
       This book is so easy to read yet so useful and informative that I read it in its entirety within 24 hours (across 2 distinct days admittedly ;-)).
       </p>
@@ -57,7 +59,8 @@
       </p>
       <p>
       I wholeheartedly recommend this book to anyone except those who, well, could have written a similar book themselves. The short punchy chapters make it a delight to read and gives the option of reading it merely 10 minutes at a time before bed or similar. The short chapters also make it useful as a reference if you forget how to do a certain thing like, say, use method_missing, even though it's not put together as a reference book at all. Lastly, this book is a must read if you're not confident with Ruby idioms and the best way to structure and lay out your code - Russ's approaches reinforce the current "standard" way to write Ruby and this alone is worth the price of admission.
-      </p></li>
+      </p>
+      </article></li>
       </ul>
 
       <h3>Review #2 Title:  Eloquent Olsen</h3>
@@ -65,6 +68,7 @@
       <li>Reviewer #2:  Fogus</li>
       <li>Review #2 Date:  March 7, 2011</li>
       <li>Review #2:
+      <article>
       <p>
       For better or worse the vast majority of my work life journey has been travelled with Java as my vehicle of expression. However, by nature I have a burning desire to learn new languages and at one point or another I discovered Russ Olsen's (also the author of Eloquent Ruby) "Design Patterns in Ruby". Having at one time counted myself as a true-believer in everything pattern-esque, I was excited for the opportunity to learn Ruby under the aegis of The Gang of Four. However, what I found was something else entirely. I absolutely loved "Design Patterns in Ruby" for reasons that I was not expecting. That is, what I found was an extremely interesting book that was playful and as a nice side-effect *actually taught me how Ruby's powerful features make many design patterns unnecessary*.
       </p>
@@ -79,13 +83,13 @@
       </p>
       <p>
       Russ Olsen has helped me to gain more experience points in Ruby, and I must say that I am excited to learn more. If you too wish to learn more about Ruby, then you would be hard-pressed to find a better book than "Eloquent Ruby" in helping you to do so.
-      </p></li>
+    </p></article></li>
       </ul>
 
     </section>
     <footer>
       <section>
-        © Jessica Chung 2013
+        Copyright © Jessica Chung 2013
       </section>
     </footer>
   </body>

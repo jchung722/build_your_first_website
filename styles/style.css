@@ -1,0 +1,72 @@
+h1 {
+  border: 2px dotted purple;
+  background-color: #fbf2a1;
+  color: #ffc9b8;
+  font-family: "Dancing Script script=latin rev=2";
+  text-align: center;
+ }
+
+nav li {
+  display: inline;
+  margin: 0 10px 10px 0;
+ }
+
+nav {
+  text-align: center;
+  color: black;
+ }
+
+ body {
+   background-color: #dcffdf;
+ }
+
+ ul
+ {
+   list-style-type: none;
+ }
+
+ .links li a:hover{
+   color: pink;
+ }
+
+ .books li {
+   display: inline-block;
+   width: 19%;
+   height: 200px;
+   margin-bottom: 20%;
+ }
+
+ .books li a img{
+   height: 100%;
+ }
+
+ #book{
+   float: left;
+   margin-right: 2%;
+ }
+
+ article{
+   background-color: lightyellow;
+   border: 1px solid black;
+ }
+
+footer {
+  clear: left;
+  bottom: 0;
+  text-align: center;
+  border: 1px solid black;
+  background-color: lightblue;
+}
+
+#profpic{
+  float: left;
+}
+
+#review{
+  width: 70%;
+  padding-top: 20%;
+}
+
+#share{
+  clear: both;
+}
